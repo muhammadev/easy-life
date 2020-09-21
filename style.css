@@ -324,12 +324,16 @@ input {
   outline: none;
 }
 
-input[type="submit"] {
+button#btnSubmit {
   width: 120px;
   height: 40px !important;
   background: #fff;
   color: #333;
-  padding: 0;
+  margin: auto;
+  font-size: 16px;
+  border: 1px solid #e4e5d6;
+  border-radius: 4px;
+  outline: none;
   cursor: pointer;
 }
 
@@ -375,4 +379,23 @@ textarea:focus {
 }
 .label-up-blur {
   color: #80868b;
+}
+
+footer {
+  background: #333;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  font-size: .8em;
+}
+
+footer p span {
+  color: red;
+}
+
+a {
+  color: unset;
 }

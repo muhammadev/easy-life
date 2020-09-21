@@ -81,6 +81,10 @@ function floatingLabel(container, isTextarea) {
     }
 
   })
+
+  btnSubmit.addEventListener("click", function(e) {
+    e.preventDefault();
+  })
 }
 
 floatingLabel(document.querySelector(".holder-one"), false);
