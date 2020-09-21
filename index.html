@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ranchers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="home" class="home">
+    <header class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <a href="/" title="THE GREAT COMPANY NAME"><img src="imgs/logo.svg" alt="logo"></a>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="menu-icon">
+          <div>Menu</div>
+        </div>
+        <nav>
+          <a href="#home"><li class="nav-li">HOME</li></a>
+          <a href="#services"><li class="nav-li">SERVICES</li></a>
+          <a href="#about"><li class="nav-li">ABOUT</li></a>
+          <a href="#contact"><li class="nav-li">CONTACT</li></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>WE MAKE YOUR LIFE EASIER</h1>
+        <h3>because, apparently, you are too lazy to do anything</h3>
+        <div class="btn-container">
+          <button>See How</button>
+        </div>  
+      </div>
+    </main>
+  </div>
+  <div class="shape-container">
+    <div id="services" class="services">
+      <div class="container">
+        <h1>Our Services</h1>
+        <div class="services-cards">
+          <div class="card">
+            <img src="https://www.manuelalangella.com/wp-content/uploads/2020/03/Asset-34.png" alt="lazy man">
+            <div>
+              <p>Do You Want Us To Do Your Home Work Instead Of You?</p>
+              <a href="#contact"><button>Yes, please!</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.manuelalangella.com/wp-content/uploads/2020/03/Asset-50.png" alt="lazy man">
+            <div>
+              <p>Do You Want To Lose Weight And Still Eat Everything On Earth?</p>
+              <a href="#contact"><button>Yes, please!</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="lazy-man" src="https://www.manuelalangella.com/wp-content/uploads/2020/03/Asset-46.png" alt="Lazy Man">
+            <div>
+              <p>Do You Want To Be Successful Without Any Effort?</p>
+              <a href="#contact"><button>Yes, please!</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="about">
+      <div class="container">
+        <h1>Our Successful Customers</h1>
+        <div class="customers">
+          <!-- <div class="row"> -->
+            <div class="customer">
+              <img src="imgs/elon-musk.png" alt="Elon Musk">
+              <p>Elon Musk The Brilliant</p>
+            </div>
+            <div class="customer">
+              <img src="imgs/steve-jobs.png" alt="Steve Jobs">
+              <p>Steve Jobs, Newton Of Technology</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="row"> -->
+            <div class="customer">
+              <img src="imgs/jeff-bezos.png" alt="Jeff Bezos">
+              <p>Jeff Bezos, The Money Monster</p>
+            </div>
+            <div class="customer">
+              <img src="imgs/bill-gates.png" alt="Bill Gates">
+              <p>Bill Gates. You're On Windows Right?</p>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact">
+    <div class="container">
+      <h1>With Us, Success Made Easy!</h1>
+      <form>
+        <div>
+          <div class="npt-holder holder-one">
+            <input name="name" id="nptName" type="text" required/>
+            <label for="nptName" id="nptNameLabel">name</label>
+          </div>
+        </div>
+        <div>
+          <div class="npt-holder holder-sec">
+            <input name="email" id="email" type="email" required/>
+            <label for="email">email</label>
+          </div>
+        </div>
+        <div>
+          <div class="npt-holder holder-third">
+            <textarea name="subject" id="subject" type="text" required></textarea>
+            <label for="subject" class="fortextarea">subject</label>
+          </div>
+        </div>
+        <div>
+          <div class="npt-holder">
+            <input type="submit" id="btnSubmit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
